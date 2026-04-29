@@ -96,14 +96,14 @@ info.update = function (props) {
     if (props) {
         const percentage = props[currentElement] || 0;
         this._div.innerHTML = `
-            <h4>${element.name} Distribution</h4>
+            <h5>${element.name} Distribution</h5>
             <b>${props.COUNTRY}</b><br>
             Percentage: ${percentage}%<br>
             Uses: ${element.uses}
         `;
     } else {
         this._div.innerHTML = `
-            <h4>${element.name} Distribution</h4>
+            <h5>${element.name} Distribution</h5>
             <p>Hover over countries to see percentage</p>
             <p><small>Uses: ${element.uses}</small></p>
         `;
@@ -195,7 +195,7 @@ legend.onAdd = function (map) {
     const grades = [0, 5, 10, 20, 30, 40, 50];
     let labels = [];
     
-    div.innerHTML = '<h4 style="margin: 0 0 10px 0;">Percentage (%)</h4>';
+    div.innerHTML = '<h6 style="margin: 0 0 10px 0;">Percentage (%)</h6>';
     
     for (let i = 0; i < grades.length; i++) {
         const from = grades[i];

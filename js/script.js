@@ -1,6 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
     const table = document.getElementById('periodic-table');
     const tooltip = document.getElementById('tooltip');
+    const modal = document.getElementById('element-modal');
+    const modalBody = document.getElementById('modal-body');
+    const closeBtn = document.querySelector('.close');
+
+    // Close modal when clicking the close button
+    closeBtn.onclick = function() {
+        modal.style.display = 'none';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    }
 
     function buildElements(elements) {
         table.innerHTML = `
@@ -22,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="symbol">${element.symbol}</div>
             `;
 
-            elemDiv.addEventListener('mouseenter', (e) => {
+            elemDiv.addEventListener('click', (e) => {
                 const statesHtml = element.states
                     ? element.states.map((state) => `<div>${state.temperature}: ${state.state}</div>`).join('')
                     : `<div>${element.state}</div>`;
@@ -32,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     madeFromHtml = `<div class="tooltip-section"><strong>When combined:</strong> ${element.madeFrom}</div>`;
                 }
 
-                tooltip.innerHTML = `
+                modalBody.innerHTML = `
                     <div class="tooltip-name">${element.name}</div>
                     <div>Symbol: ${element.symbol}</div>
                     <div>Atomic Number: ${element.atomicNumber}</div>
@@ -44,13 +59,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     ${madeFromHtml}
                 `;
 
-                tooltip.style.display = 'block';
-                tooltip.style.left = e.pageX + 10 + 'px';
-                tooltip.style.top = e.pageY + 10 + 'px';
-            });
-
-            elemDiv.addEventListener('mouseleave', () => {
-                tooltip.style.display = 'none';
+                const rect = elemDiv.getBoundingClientRect();
+                const modalContent = modal.querySelector('.modal-content');
+                modalContent.style.top = (rect.top + window.scrollY - 250) + 'px';
+                modalContent.style.left = (rect.left + window.scrollX - 120) + 'px';
+                
+                modal.style.display = 'block';
             });
 
             table.appendChild(elemDiv);
