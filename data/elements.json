@@ -1,0 +1,1833 @@
+[
+  {
+    "atomicNumber": 1,
+    "symbol": "H",
+    "name": "Hydrogen",
+    "atomicMass": 1.008,
+    "group": 1,
+    "period": 1,
+    "state": "gas",
+    "usage": "Fuel cells, ammonia production, hydrogenation",
+    "states": [
+      {"temperature": "-259°C", "state": "solid"},
+      {"temperature": "25°C", "state": "gas"},
+      {"temperature": "-253°C", "state": "liquid"}
+    ],
+    "foundIn": "Water, stars, natural gas, organic compounds"
+  },
+  {
+    "atomicNumber": 2,
+    "symbol": "He",
+    "name": "Helium",
+    "atomicMass": 4.003,
+    "group": 18,
+    "period": 1,
+    "state": "gas",
+    "usage": "Cryogenics, balloons, MRI cooling",
+    "states": [
+      {"temperature": "-272°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Natural gas wells, atmosphere trace"
+  },
+  {
+    "atomicNumber": 3,
+    "symbol": "Li",
+    "name": "Lithium",
+    "atomicMass": 6.941,
+    "group": 1,
+    "period": 2,
+    "state": "solid",
+    "usage": "Rechargeable batteries, aerospace alloys, ceramics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "180°C", "state": "liquid"},
+      {"temperature": "1342°C", "state": "gas"}
+    ],
+    "foundIn": "Spodumene, lepidolite, salt brines"
+  },
+  {
+    "atomicNumber": 4,
+    "symbol": "Be",
+    "name": "Beryllium",
+    "atomicMass": 9.012,
+    "group": 2,
+    "period": 2,
+    "state": "solid",
+    "usage": "Aerospace alloys, X-ray windows, nuclear reactors",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1287°C", "state": "liquid"},
+      {"temperature": "2470°C", "state": "gas"}
+    ],
+    "foundIn": "Beryl, chrysoberyl, bertrandite"
+  },
+  {
+    "atomicNumber": 5,
+    "symbol": "B",
+    "name": "Boron",
+    "atomicMass": 10.811,
+    "group": 13,
+    "period": 2,
+    "state": "solid",
+    "usage": "Fiberglass, detergents, semiconductors",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2076°C", "state": "liquid"},
+      {"temperature": "3927°C", "state": "gas"}
+    ],
+    "foundIn": "Borates, borax, tourmaline"
+  },
+  {
+    "atomicNumber": 6,
+    "symbol": "C",
+    "name": "Carbon",
+    "atomicMass": 12.011,
+    "group": 14,
+    "period": 2,
+    "state": "solid",
+    "usage": "Steel, fuels, organic compounds, lubricants",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "3550°C", "state": "gas"}
+    ],
+    "foundIn": "Coal, oil, limestone, living organisms"
+  },
+  {
+    "atomicNumber": 7,
+    "symbol": "N",
+    "name": "Nitrogen",
+    "atomicMass": 14.007,
+    "group": 15,
+    "period": 2,
+    "state": "gas",
+    "usage": "Fertilizers, explosives, air separation",
+    "states": [
+      {"temperature": "-210°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Air, soils, plants, minerals"
+  },
+  {
+    "atomicNumber": 8,
+    "symbol": "O",
+    "name": "Oxygen",
+    "atomicMass": 15.999,
+    "group": 16,
+    "period": 2,
+    "state": "gas",
+    "usage": "Respiration, steelmaking, medical oxygen",
+    "states": [
+      {"temperature": "-183°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Air, water, minerals, rocks"
+  },
+  {
+    "atomicNumber": 9,
+    "symbol": "F",
+    "name": "Fluorine",
+    "atomicMass": 18.998,
+    "group": 17,
+    "period": 2,
+    "state": "gas",
+    "usage": "Toothpaste, refrigerants, uranium enrichment",
+    "states": [
+      {"temperature": "-188°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Fluorite, cryolite, apatite"
+  },
+  {
+    "atomicNumber": 10,
+    "symbol": "Ne",
+    "name": "Neon",
+    "atomicMass": 20.180,
+    "group": 18,
+    "period": 2,
+    "state": "gas",
+    "usage": "Neon signs, cryogenics, gas discharge tubes",
+    "states": [
+      {"temperature": "-246°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Atmosphere trace, natural gas wells"
+  },
+  {
+    "atomicNumber": 11,
+    "symbol": "Na",
+    "name": "Sodium",
+    "atomicMass": 22.990,
+    "group": 1,
+    "period": 3,
+    "state": "solid",
+    "usage": "Salt production, soap, street lighting",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "883°C", "state": "liquid"},
+      {"temperature": "883°C", "state": "gas"}
+    ],
+    "foundIn": "Salt deposits, seawater, minerals"
+  },
+  {
+    "atomicNumber": 12,
+    "symbol": "Mg",
+    "name": "Magnesium",
+    "atomicMass": 24.305,
+    "group": 2,
+    "period": 3,
+    "state": "solid",
+    "usage": "Alloys, fireworks, medicines",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "650°C", "state": "liquid"},
+      {"temperature": "1090°C", "state": "gas"}
+    ],
+    "foundIn": "Dolomite, magnesite, seawater"
+  },
+  {
+    "atomicNumber": 13,
+    "symbol": "Al",
+    "name": "Aluminum",
+    "atomicMass": 26.982,
+    "group": 13,
+    "period": 3,
+    "state": "solid",
+    "usage": "Foil, cans, aircraft, construction",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "660°C", "state": "liquid"},
+      {"temperature": "2470°C", "state": "gas"}
+    ],
+    "foundIn": "Bauxite, clays, minerals"
+  },
+  {
+    "atomicNumber": 14,
+    "symbol": "Si",
+    "name": "Silicon",
+    "atomicMass": 28.086,
+    "group": 14,
+    "period": 3,
+    "state": "solid",
+    "usage": "Electronics, glass, solar cells",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1414°C", "state": "liquid"},
+      {"temperature": "2355°C", "state": "gas"}
+    ],
+    "foundIn": "Sand, quartz, silicates"
+  },
+  {
+    "atomicNumber": 15,
+    "symbol": "P",
+    "name": "Phosphorus",
+    "atomicMass": 30.974,
+    "group": 15,
+    "period": 3,
+    "state": "solid",
+    "usage": "Fertilizers, detergents, matches",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "280°C", "state": "liquid"},
+      {"temperature": "280°C", "state": "gas"}
+    ],
+    "foundIn": "Phosphate rock, fertilizers"
+  },
+  {
+    "atomicNumber": 16,
+    "symbol": "S",
+    "name": "Sulfur",
+    "atomicMass": 32.065,
+    "group": 16,
+    "period": 3,
+    "state": "solid",
+    "usage": "Rubber vulcanization, fertilizers, sulfuric acid",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "115°C", "state": "liquid"},
+      {"temperature": "444°C", "state": "gas"}
+    ],
+    "foundIn": "Volcanoes, sulfide ores, coal"
+  },
+  {
+    "atomicNumber": 17,
+    "symbol": "Cl",
+    "name": "Chlorine",
+    "atomicMass": 35.453,
+    "group": 17,
+    "period": 3,
+    "state": "gas",
+    "usage": "Disinfectants, PVC, bleach",
+    "states": [
+      {"temperature": "-34°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Salt, seawater, brine"
+  },
+  {
+    "atomicNumber": 18,
+    "symbol": "Ar",
+    "name": "Argon",
+    "atomicMass": 39.948,
+    "group": 18,
+    "period": 3,
+    "state": "gas",
+    "usage": "Lighting, welding, insulating glass",
+    "states": [
+      {"temperature": "-189°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Atmosphere trace, natural gas wells"
+  },
+  {
+    "atomicNumber": 19,
+    "symbol": "K",
+    "name": "Potassium",
+    "atomicMass": 39.098,
+    "group": 1,
+    "period": 4,
+    "state": "solid",
+    "usage": "Fertilizers, salts, soap production",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "63°C", "state": "liquid"},
+      {"temperature": "774°C", "state": "gas"}
+    ],
+    "foundIn": "Potash, salt deposits, minerals"
+  },
+  {
+    "atomicNumber": 21,
+    "symbol": "Sc",
+    "name": "Scandium",
+    "atomicMass": 44.956,
+    "group": 3,
+    "period": 4,
+    "state": "solid",
+    "usage": "Aerospace alloys, sports equipment",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1541°C", "state": "liquid"},
+      {"temperature": "2836°C", "state": "gas"}
+    ],
+    "foundIn": "Rare earth minerals, thorium ores"
+  },
+  {
+    "atomicNumber": 22,
+    "symbol": "Ti",
+    "name": "Titanium",
+    "atomicMass": 47.867,
+    "group": 4,
+    "period": 4,
+    "state": "solid",
+    "usage": "Aircraft, medical implants, jewelry",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1668°C", "state": "liquid"},
+      {"temperature": "3287°C", "state": "gas"}
+    ],
+    "foundIn": "Ilmenite, rutile, titanium dioxide"
+  },
+  {
+    "atomicNumber": 23,
+    "symbol": "V",
+    "name": "Vanadium",
+    "atomicMass": 50.942,
+    "group": 5,
+    "period": 4,
+    "state": "solid",
+    "usage": "Steel alloys, catalysts, batteries",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1910°C", "state": "liquid"},
+      {"temperature": "3407°C", "state": "gas"}
+    ],
+    "foundIn": "Vanadinite, patronite, carnotite"
+  },
+  {
+    "atomicNumber": 24,
+    "symbol": "Cr",
+    "name": "Chromium",
+    "atomicMass": 51.996,
+    "group": 6,
+    "period": 4,
+    "state": "solid",
+    "usage": "Stainless steel, plating, pigments",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1857°C", "state": "liquid"},
+      {"temperature": "2671°C", "state": "gas"}
+    ],
+    "foundIn": "Chromite, crocoite, uvarovite"
+  },
+  {
+    "atomicNumber": 25,
+    "symbol": "Mn",
+    "name": "Manganese",
+    "atomicMass": 54.938,
+    "group": 7,
+    "period": 4,
+    "state": "solid",
+    "usage": "Steel production, batteries, fertilizers",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1246°C", "state": "liquid"},
+      {"temperature": "2061°C", "state": "gas"}
+    ],
+    "foundIn": "Pyrolusite, rhodochrosite, manganite"
+  },
+  {
+    "atomicNumber": 26,
+    "symbol": "Fe",
+    "name": "Iron",
+    "atomicMass": 55.845,
+    "group": 8,
+    "period": 4,
+    "state": "solid",
+    "usage": "Steel, construction, machinery",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1538°C", "state": "liquid"},
+      {"temperature": "2861°C", "state": "gas"}
+    ],
+    "foundIn": "Hematite, magnetite, siderite"
+  },
+  {
+    "atomicNumber": 27,
+    "symbol": "Co",
+    "name": "Cobalt",
+    "atomicMass": 58.933,
+    "group": 9,
+    "period": 4,
+    "state": "solid",
+    "usage": "Magnets, batteries, pigments",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1495°C", "state": "liquid"},
+      {"temperature": "2927°C", "state": "gas"}
+    ],
+    "foundIn": "Cobaltite, smaltite, erythrite"
+  },
+  {
+    "atomicNumber": 28,
+    "symbol": "Ni",
+    "name": "Nickel",
+    "atomicMass": 58.693,
+    "group": 10,
+    "period": 4,
+    "state": "solid",
+    "usage": "Stainless steel, coins, batteries",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1455°C", "state": "liquid"},
+      {"temperature": "2913°C", "state": "gas"}
+    ],
+    "foundIn": "Pentlandite, garnierite, millerite"
+  },
+  {
+    "atomicNumber": 29,
+    "symbol": "Cu",
+    "name": "Copper",
+    "atomicMass": 63.546,
+    "group": 11,
+    "period": 4,
+    "state": "solid",
+    "usage": "Electrical wiring, plumbing, coins",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1085°C", "state": "liquid"},
+      {"temperature": "2562°C", "state": "gas"}
+    ],
+    "foundIn": "Chalcopyrite, bornite, chalcocite"
+  },
+  {
+    "atomicNumber": 30,
+    "symbol": "Zn",
+    "name": "Zinc",
+    "atomicMass": 65.390,
+    "group": 12,
+    "period": 4,
+    "state": "solid",
+    "usage": "Galvanizing, batteries, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "420°C", "state": "liquid"},
+      {"temperature": "907°C", "state": "gas"}
+    ],
+    "foundIn": "Sphalerite, smithsonite, hemimorphite"
+  },
+  {
+    "atomicNumber": 31,
+    "symbol": "Ga",
+    "name": "Gallium",
+    "atomicMass": 69.723,
+    "group": 13,
+    "period": 4,
+    "state": "solid",
+    "usage": "Semiconductors, LEDs, thermometers",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "30°C", "state": "liquid"},
+      {"temperature": "2204°C", "state": "gas"}
+    ],
+    "foundIn": "Bauxite, germanite, sphalerite"
+  },
+  {
+    "atomicNumber": 32,
+    "symbol": "Ge",
+    "name": "Germanium",
+    "atomicMass": 72.640,
+    "group": 14,
+    "period": 4,
+    "state": "solid",
+    "usage": "Semiconductors, fiber optics, infrared optics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "938°C", "state": "liquid"},
+      {"temperature": "2833°C", "state": "gas"}
+    ],
+    "foundIn": "Germanite, argyrodite, coal"
+  },
+  {
+    "atomicNumber": 33,
+    "symbol": "As",
+    "name": "Arsenic",
+    "atomicMass": 74.922,
+    "group": 15,
+    "period": 4,
+    "state": "solid",
+    "usage": "Pesticides, semiconductors, wood preservatives",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "817°C", "state": "liquid"},
+      {"temperature": "614°C", "state": "gas"}
+    ],
+    "foundIn": "Arsenopyrite, realgar, orpiment"
+  },
+  {
+    "atomicNumber": 34,
+    "symbol": "Se",
+    "name": "Selenium",
+    "atomicMass": 78.960,
+    "group": 16,
+    "period": 4,
+    "state": "solid",
+    "usage": "Photocells, glass, electronics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "221°C", "state": "liquid"},
+      {"temperature": "685°C", "state": "gas"}
+    ],
+    "foundIn": "Selenide minerals, pyrite"
+  },
+  {
+    "atomicNumber": 35,
+    "symbol": "Br",
+    "name": "Bromine",
+    "atomicMass": 79.904,
+    "group": 17,
+    "period": 4,
+    "state": "liquid",
+    "usage": "Flame retardants, water treatment, pharmaceuticals",
+    "states": [
+      {"temperature": "-7°C", "state": "solid"},
+      {"temperature": "25°C", "state": "liquid"},
+      {"temperature": "59°C", "state": "gas"}
+    ],
+    "foundIn": "Seawater, brine wells, carnallite"
+  },
+  {
+    "atomicNumber": 36,
+    "symbol": "Kr",
+    "name": "Krypton",
+    "atomicMass": 83.798,
+    "group": 18,
+    "period": 4,
+    "state": "gas",
+    "usage": "Lighting, lasers, insulation",
+    "states": [
+      {"temperature": "-157°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Atmosphere trace, natural gas"
+  },
+  {
+    "atomicNumber": 37,
+    "symbol": "Rb",
+    "name": "Rubidium",
+    "atomicMass": 85.468,
+    "group": 1,
+    "period": 5,
+    "state": "solid",
+    "usage": "Research, atomic clocks, photocells",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "39°C", "state": "liquid"},
+      {"temperature": "688°C", "state": "gas"}
+    ],
+    "foundIn": "Lepidolite, pollucite, carnallite"
+  },
+  {
+    "atomicNumber": 38,
+    "symbol": "Sr",
+    "name": "Strontium",
+    "atomicMass": 87.62,
+    "group": 2,
+    "period": 5,
+    "state": "solid",
+    "usage": "Fireworks, magnets, glass",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "777°C", "state": "liquid"},
+      {"temperature": "1382°C", "state": "gas"}
+    ],
+    "foundIn": "Strontianite, celestine, seawater"
+  },
+  {
+    "atomicNumber": 39,
+    "symbol": "Y",
+    "name": "Yttrium",
+    "atomicMass": 88.906,
+    "group": 3,
+    "period": 5,
+    "state": "solid",
+    "usage": "LEDs, superconductors, lasers",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1526°C", "state": "liquid"},
+      {"temperature": "3345°C", "state": "gas"}
+    ],
+    "foundIn": "Xenotime, monazite, bastnäsite"
+  },
+  {
+    "atomicNumber": 40,
+    "symbol": "Zr",
+    "name": "Zirconium",
+    "atomicMass": 91.224,
+    "group": 4,
+    "period": 5,
+    "state": "solid",
+    "usage": "Nuclear reactors, ceramics, jewelry",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1855°C", "state": "liquid"},
+      {"temperature": "4409°C", "state": "gas"}
+    ],
+    "foundIn": "Zircon, baddeleyite, eudialyte"
+  },
+  {
+    "atomicNumber": 41,
+    "symbol": "Nb",
+    "name": "Niobium",
+    "atomicMass": 92.906,
+    "group": 5,
+    "period": 5,
+    "state": "solid",
+    "usage": "Superconductors, steel alloys, jewelry",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2477°C", "state": "liquid"},
+      {"temperature": "4744°C", "state": "gas"}
+    ],
+    "foundIn": "Columbite, pyrochlore, euxenite"
+  },
+  {
+    "atomicNumber": 42,
+    "symbol": "Mo",
+    "name": "Molybdenum",
+    "atomicMass": 95.95,
+    "group": 6,
+    "period": 5,
+    "state": "solid",
+    "usage": "Steel alloys, catalysts, lubricants",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2623°C", "state": "liquid"},
+      {"temperature": "4639°C", "state": "gas"}
+    ],
+    "foundIn": "Molybdenite, wulfenite, powellite"
+  },
+  {
+    "atomicNumber": 43,
+    "symbol": "Tc",
+    "name": "Technetium",
+    "atomicMass": 98,
+    "group": 7,
+    "period": 5,
+    "state": "solid",
+    "usage": "Medical imaging, research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2157°C", "state": "liquid"},
+      {"temperature": "4265°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 44,
+    "symbol": "Ru",
+    "name": "Ruthenium",
+    "atomicMass": 101.07,
+    "group": 8,
+    "period": 5,
+    "state": "solid",
+    "usage": "Catalysts, electronics, jewelry",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2334°C", "state": "liquid"},
+      {"temperature": "4150°C", "state": "gas"}
+    ],
+    "foundIn": "Pentlandite, laurite, osmiridium"
+  },
+  {
+    "atomicNumber": 45,
+    "symbol": "Rh",
+    "name": "Rhodium",
+    "atomicMass": 102.91,
+    "group": 9,
+    "period": 5,
+    "state": "solid",
+    "usage": "Catalysts, jewelry, mirrors",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1964°C", "state": "liquid"},
+      {"temperature": "3695°C", "state": "gas"}
+    ],
+    "foundIn": "Platinum ores, cooperite"
+  },
+  {
+    "atomicNumber": 46,
+    "symbol": "Pd",
+    "name": "Palladium",
+    "atomicMass": 106.42,
+    "group": 10,
+    "period": 5,
+    "state": "solid",
+    "usage": "Catalysts, jewelry, electronics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1554°C", "state": "liquid"},
+      {"temperature": "2963°C", "state": "gas"}
+    ],
+    "foundIn": "Platinum ores, cooperite, braggite"
+  },
+  {
+    "atomicNumber": 47,
+    "symbol": "Ag",
+    "name": "Silver",
+    "atomicMass": 107.87,
+    "group": 11,
+    "period": 5,
+    "state": "solid",
+    "usage": "Jewelry, photography, electronics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "961°C", "state": "liquid"},
+      {"temperature": "2162°C", "state": "gas"}
+    ],
+    "foundIn": "Argentite, chlorargyrite, native silver"
+  },
+  {
+    "atomicNumber": 48,
+    "symbol": "Cd",
+    "name": "Cadmium",
+    "atomicMass": 112.41,
+    "group": 12,
+    "period": 5,
+    "state": "solid",
+    "usage": "Batteries, pigments, plating",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "321°C", "state": "liquid"},
+      {"temperature": "767°C", "state": "gas"}
+    ],
+    "foundIn": "Greenockite, sphalerite, wurtzite"
+  },
+  {
+    "atomicNumber": 49,
+    "symbol": "In",
+    "name": "Indium",
+    "atomicMass": 114.82,
+    "group": 13,
+    "period": 5,
+    "state": "solid",
+    "usage": "Semiconductors, LCD screens, solders",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "157°C", "state": "liquid"},
+      {"temperature": "2072°C", "state": "gas"}
+    ],
+    "foundIn": "Sphalerite, chalcopyrite, stannite"
+  },
+  {
+    "atomicNumber": 50,
+    "symbol": "Sn",
+    "name": "Tin",
+    "atomicMass": 118.71,
+    "group": 14,
+    "period": 5,
+    "state": "solid",
+    "usage": "Solders, cans, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "232°C", "state": "liquid"},
+      {"temperature": "2602°C", "state": "gas"}
+    ],
+    "foundIn": "Cassiterite, stannite, cylindrite"
+  },
+  {
+    "atomicNumber": 51,
+    "symbol": "Sb",
+    "name": "Antimony",
+    "atomicMass": 121.76,
+    "group": 15,
+    "period": 5,
+    "state": "solid",
+    "usage": "Flame retardants, batteries, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "631°C", "state": "liquid"},
+      {"temperature": "1587°C", "state": "gas"}
+    ],
+    "foundIn": "Stibnite, valentinite, senarmontite"
+  },
+  {
+    "atomicNumber": 52,
+    "symbol": "Te",
+    "name": "Tellurium",
+    "atomicMass": 127.60,
+    "group": 16,
+    "period": 5,
+    "state": "solid",
+    "usage": "Semiconductors, metallurgy, rubber",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "450°C", "state": "liquid"},
+      {"temperature": "988°C", "state": "gas"}
+    ],
+    "foundIn": "Sylvanite, calaverite, tellurides"
+  },
+  {
+    "atomicNumber": 53,
+    "symbol": "I",
+    "name": "Iodine",
+    "atomicMass": 126.90,
+    "group": 17,
+    "period": 5,
+    "state": "solid",
+    "usage": "Disinfectants, photography, medicine",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "114°C", "state": "liquid"},
+      {"temperature": "184°C", "state": "gas"}
+    ],
+    "foundIn": "Caliche, seaweed, brine"
+  },
+  {
+    "atomicNumber": 54,
+    "symbol": "Xe",
+    "name": "Xenon",
+    "atomicMass": 131.29,
+    "group": 18,
+    "period": 5,
+    "state": "gas",
+    "usage": "Lighting, anesthesia, lasers",
+    "states": [
+      {"temperature": "-112°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Atmosphere trace, natural gas"
+  },
+  {
+    "atomicNumber": 55,
+    "symbol": "Cs",
+    "name": "Cesium",
+    "atomicMass": 132.91,
+    "group": 1,
+    "period": 6,
+    "state": "solid",
+    "usage": "Atomic clocks, photoelectric cells, drilling fluids",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "28°C", "state": "liquid"},
+      {"temperature": "671°C", "state": "gas"}
+    ],
+    "foundIn": "Pollucite, lepidolite, carnallite"
+  },
+  {
+    "atomicNumber": 56,
+    "symbol": "Ba",
+    "name": "Barium",
+    "atomicMass": 137.33,
+    "group": 2,
+    "period": 6,
+    "state": "solid",
+    "usage": "Drilling fluids, fireworks, glass",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "727°C", "state": "liquid"},
+      {"temperature": "1897°C", "state": "gas"}
+    ],
+    "foundIn": "Barite, witherite, alstonite"
+  },
+  {
+    "atomicNumber": 57,
+    "symbol": "La",
+    "name": "Lanthanum",
+    "atomicMass": 138.91,
+    "group": 3,
+    "period": 6,
+    "state": "solid",
+    "usage": "Catalysts, optics, batteries",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "918°C", "state": "liquid"},
+      {"temperature": "3464°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, cerite"
+  },
+  {
+    "atomicNumber": 58,
+    "symbol": "Ce",
+    "name": "Cerium",
+    "atomicMass": 140.12,
+    "group": 4,
+    "period": 8,
+    "state": "solid",
+    "usage": "Catalysts, glass polishing, flint",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "795°C", "state": "liquid"},
+      {"temperature": "3443°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, allanite"
+  },
+  {
+    "atomicNumber": 59,
+    "symbol": "Pr",
+    "name": "Praseodymium",
+    "atomicMass": 140.91,
+    "group": 5,
+    "period": 8,
+    "state": "solid",
+    "usage": "Magnets, lasers, glass",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "931°C", "state": "liquid"},
+      {"temperature": "3520°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, fluorocarbonate"
+  },
+  {
+    "atomicNumber": 60,
+    "symbol": "Nd",
+    "name": "Neodymium",
+    "atomicMass": 144.24,
+    "group": 6,
+    "period": 8,
+    "state": "solid",
+    "usage": "Magnets, lasers, glass coloring",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1021°C", "state": "liquid"},
+      {"temperature": "3074°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, allanite"
+  },
+  {
+    "atomicNumber": 61,
+    "symbol": "Pm",
+    "name": "Promethium",
+    "atomicMass": 145,
+    "group": 7,
+    "period": 8,
+    "state": "solid",
+    "usage": "Nuclear batteries, luminous paint",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1042°C", "state": "liquid"},
+      {"temperature": "3000°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 62,
+    "symbol": "Sm",
+    "name": "Samarium",
+    "atomicMass": 150.36,
+    "group": 8,
+    "period": 8,
+    "state": "solid",
+    "usage": "Magnets, lasers, cancer treatment",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1074°C", "state": "liquid"},
+      {"temperature": "1794°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, samarskite"
+  },
+  {
+    "atomicNumber": 63,
+    "symbol": "Eu",
+    "name": "Europium",
+    "atomicMass": 151.96,
+    "group": 9,
+    "period": 8,
+    "state": "solid",
+    "usage": "Phosphors, lasers, nuclear control",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "822°C", "state": "liquid"},
+      {"temperature": "1597°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, euxenite"
+  },
+  {
+    "atomicNumber": 64,
+    "symbol": "Gd",
+    "name": "Gadolinium",
+    "atomicMass": 157.25,
+    "group": 10,
+    "period": 8,
+    "state": "solid",
+    "usage": "MRI contrast, magnets, nuclear control",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1313°C", "state": "liquid"},
+      {"temperature": "3273°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, gadolinite"
+  },
+  {
+    "atomicNumber": 65,
+    "symbol": "Tb",
+    "name": "Terbium",
+    "atomicMass": 158.93,
+    "group": 11,
+    "period": 8,
+    "state": "solid",
+    "usage": "Phosphors, lasers, fuel cells",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1356°C", "state": "liquid"},
+      {"temperature": "3230°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, xenotime"
+  },
+  {
+    "atomicNumber": 66,
+    "symbol": "Dy",
+    "name": "Dysprosium",
+    "atomicMass": 162.50,
+    "group": 12,
+    "period": 8,
+    "state": "solid",
+    "usage": "Magnets, lasers, nuclear control",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1407°C", "state": "liquid"},
+      {"temperature": "2567°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, xenotime"
+  },
+  {
+    "atomicNumber": 67,
+    "symbol": "Ho",
+    "name": "Holmium",
+    "atomicMass": 164.93,
+    "group": 13,
+    "period": 8,
+    "state": "solid",
+    "usage": "Magnets, lasers, nuclear control",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1461°C", "state": "liquid"},
+      {"temperature": "2720°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, gadolinite"
+  },
+  {
+    "atomicNumber": 68,
+    "symbol": "Er",
+    "name": "Erbium",
+    "atomicMass": 167.26,
+    "group": 14,
+    "period": 8,
+    "state": "solid",
+    "usage": "Fiber optics, lasers, metallurgy",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1497°C", "state": "liquid"},
+      {"temperature": "2868°C", "state": "gas"}
+    ],
+    "foundIn": "Xenotime, euxenite, gadolinite"
+  },
+  {
+    "atomicNumber": 69,
+    "symbol": "Tm",
+    "name": "Thulium",
+    "atomicMass": 168.93,
+    "group": 15,
+    "period": 8,
+    "state": "solid",
+    "usage": "Portable X-ray machines, lasers",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1545°C", "state": "liquid"},
+      {"temperature": "1950°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, euxenite"
+  },
+  {
+    "atomicNumber": 70,
+    "symbol": "Yb",
+    "name": "Ytterbium",
+    "atomicMass": 173.05,
+    "group": 16,
+    "period": 8,
+    "state": "solid",
+    "usage": "Stainless steel, lasers, atomic clocks",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "819°C", "state": "liquid"},
+      {"temperature": "1196°C", "state": "gas"}
+    ],
+    "foundIn": "Xenotime, euxenite, monazite"
+  },
+  {
+    "atomicNumber": 71,
+    "symbol": "Lu",
+    "name": "Lutetium",
+    "atomicMass": 174.97,
+    "group": 17,
+    "period": 8,
+    "state": "solid",
+    "usage": "Catalysts, PET scanners, LEDs",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1652°C", "state": "liquid"},
+      {"temperature": "3402°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, bastnäsite, xenotime"
+  },
+  {
+    "atomicNumber": 72,
+    "symbol": "Hf",
+    "name": "Hafnium",
+    "atomicMass": 178.49,
+    "group": 4,
+    "period": 6,
+    "state": "solid",
+    "usage": "Nuclear control rods, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2233°C", "state": "liquid"},
+      {"temperature": "4603°C", "state": "gas"}
+    ],
+    "foundIn": "Zircon, baddeleyite, alvite"
+  },
+  {
+    "atomicNumber": 73,
+    "symbol": "Ta",
+    "name": "Tantalum",
+    "atomicMass": 180.95,
+    "group": 5,
+    "period": 6,
+    "state": "solid",
+    "usage": "Capacitors, surgical tools, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "3017°C", "state": "liquid"},
+      {"temperature": "5458°C", "state": "gas"}
+    ],
+    "foundIn": "Tantalite, columbite, wodginite"
+  },
+  {
+    "atomicNumber": 74,
+    "symbol": "W",
+    "name": "Tungsten",
+    "atomicMass": 183.84,
+    "group": 6,
+    "period": 6,
+    "state": "solid",
+    "usage": "Light bulb filaments, steel alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "3422°C", "state": "liquid"},
+      {"temperature": "5555°C", "state": "gas"}
+    ],
+    "foundIn": "Wolframite, scheelite, ferberite"
+  },
+  {
+    "atomicNumber": 75,
+    "symbol": "Re",
+    "name": "Rhenium",
+    "atomicMass": 186.21,
+    "group": 7,
+    "period": 6,
+    "state": "solid",
+    "usage": "Catalysts, thermocouples, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "3186°C", "state": "liquid"},
+      {"temperature": "5596°C", "state": "gas"}
+    ],
+    "foundIn": "Molybdenite, gadolinite, columbite"
+  },
+  {
+    "atomicNumber": 76,
+    "symbol": "Os",
+    "name": "Osmium",
+    "atomicMass": 190.23,
+    "group": 8,
+    "period": 6,
+    "state": "solid",
+    "usage": "Pen tips, catalysts, alloys",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "3033°C", "state": "liquid"},
+      {"temperature": "5012°C", "state": "gas"}
+    ],
+    "foundIn": "Osmiridium, iridosmine, native osmium"
+  },
+  {
+    "atomicNumber": 77,
+    "symbol": "Ir",
+    "name": "Iridium",
+    "atomicMass": 192.22,
+    "group": 9,
+    "period": 6,
+    "state": "solid",
+    "usage": "Catalysts, spark plugs, crucibles",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "2446°C", "state": "liquid"},
+      {"temperature": "4428°C", "state": "gas"}
+    ],
+    "foundIn": "Osmiridium, iridosmine, native iridium"
+  },
+  {
+    "atomicNumber": 78,
+    "symbol": "Pt",
+    "name": "Platinum",
+    "atomicMass": 195.08,
+    "group": 10,
+    "period": 6,
+    "state": "solid",
+    "usage": "Catalysts, jewelry, electronics",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1768°C", "state": "liquid"},
+      {"temperature": "3825°C", "state": "gas"}
+    ],
+    "foundIn": "Sperrylite, cooperite, braggite"
+  },
+  {
+    "atomicNumber": 79,
+    "symbol": "Au",
+    "name": "Gold",
+    "atomicMass": 196.97,
+    "group": 11,
+    "period": 6,
+    "state": "solid",
+    "usage": "Jewelry, electronics, medicine",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1064°C", "state": "liquid"},
+      {"temperature": "2856°C", "state": "gas"}
+    ],
+    "foundIn": "Native gold, electrum, calaverite"
+  },
+  {
+    "atomicNumber": 80,
+    "symbol": "Hg",
+    "name": "Mercury",
+    "atomicMass": 200.59,
+    "group": 12,
+    "period": 6,
+    "state": "liquid",
+    "usage": "Thermometers, barometers, dentistry",
+    "states": [
+      {"temperature": "-39°C", "state": "solid"},
+      {"temperature": "25°C", "state": "liquid"},
+      {"temperature": "357°C", "state": "gas"}
+    ],
+    "foundIn": "Cinnabar, metacinnabar, livingstonite"
+  },
+  {
+    "atomicNumber": 81,
+    "symbol": "Tl",
+    "name": "Thallium",
+    "atomicMass": 204.38,
+    "group": 13,
+    "period": 6,
+    "state": "solid",
+    "usage": "Optics, electronics, medicine",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "304°C", "state": "liquid"},
+      {"temperature": "1473°C", "state": "gas"}
+    ],
+    "foundIn": "Crookesite, lorandite, hutchinsonite"
+  },
+  {
+    "atomicNumber": 82,
+    "symbol": "Pb",
+    "name": "Lead",
+    "atomicMass": 207.2,
+    "group": 14,
+    "period": 6,
+    "state": "solid",
+    "usage": "Batteries, radiation shielding, solder",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "327°C", "state": "liquid"},
+      {"temperature": "1749°C", "state": "gas"}
+    ],
+    "foundIn": "Galena, anglesite, cerussite"
+  },
+  {
+    "atomicNumber": 83,
+    "symbol": "Bi",
+    "name": "Bismuth",
+    "atomicMass": 208.98,
+    "group": 15,
+    "period": 6,
+    "state": "solid",
+    "usage": "Pharmaceuticals, cosmetics, fishing weights",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "271°C", "state": "liquid"},
+      {"temperature": "1564°C", "state": "gas"}
+    ],
+    "foundIn": "Bismuthinite, bismite, bismuth ochre"
+  },
+  {
+    "atomicNumber": 84,
+    "symbol": "Po",
+    "name": "Polonium",
+    "atomicMass": 209,
+    "group": 16,
+    "period": 6,
+    "state": "solid",
+    "usage": "Static eliminators, research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "254°C", "state": "liquid"},
+      {"temperature": "962°C", "state": "gas"}
+    ],
+    "foundIn": "Pitchblende, chalcolite"
+  },
+  {
+    "atomicNumber": 85,
+    "symbol": "At",
+    "name": "Astatine",
+    "atomicMass": 210,
+    "group": 17,
+    "period": 6,
+    "state": "solid",
+    "usage": "Cancer treatment research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "302°C", "state": "liquid"},
+      {"temperature": "337°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear decay byproduct"
+  },
+  {
+    "atomicNumber": 86,
+    "symbol": "Rn",
+    "name": "Radon",
+    "atomicMass": 222,
+    "group": 18,
+    "period": 6,
+    "state": "gas",
+    "usage": "Cancer treatment, research",
+    "states": [
+      {"temperature": "-71°C", "state": "liquid"},
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Uranium ore decay"
+  },
+  {
+    "atomicNumber": 87,
+    "symbol": "Fr",
+    "name": "Francium",
+    "atomicMass": 223,
+    "group": 1,
+    "period": 7,
+    "state": "solid",
+    "usage": "Research, atomic clocks",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "27°C", "state": "liquid"},
+      {"temperature": "677°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear decay byproduct"
+  },
+  {
+    "atomicNumber": 88,
+    "symbol": "Ra",
+    "name": "Radium",
+    "atomicMass": 226,
+    "group": 2,
+    "period": 7,
+    "state": "solid",
+    "usage": "Cancer treatment, luminous paint",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "700°C", "state": "liquid"},
+      {"temperature": "1737°C", "state": "gas"}
+    ],
+    "foundIn": "Pitchblende, carnotite"
+  },
+  {
+    "atomicNumber": 89,
+    "symbol": "Ac",
+    "name": "Actinium",
+    "atomicMass": 227,
+    "group": 3,
+    "period": 7,
+    "state": "solid",
+    "usage": "Neutron sources, research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1050°C", "state": "liquid"},
+      {"temperature": "3198°C", "state": "gas"}
+    ],
+    "foundIn": "Uranium ore, pitchblende"
+  },
+  {
+    "atomicNumber": 90,
+    "symbol": "Th",
+    "name": "Thorium",
+    "atomicMass": 232.04,
+    "group": 4,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear fuel, welding rods",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1750°C", "state": "liquid"},
+      {"temperature": "4788°C", "state": "gas"}
+    ],
+    "foundIn": "Monazite, thorianite, thorite"
+  },
+  {
+    "atomicNumber": 91,
+    "symbol": "Pa",
+    "name": "Protactinium",
+    "atomicMass": 231.04,
+    "group": 5,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1572°C", "state": "liquid"},
+      {"temperature": "4027°C", "state": "gas"}
+    ],
+    "foundIn": "Uranium ore decay"
+  },
+  {
+    "atomicNumber": 92,
+    "symbol": "U",
+    "name": "Uranium",
+    "atomicMass": 238.03,
+    "group": 6,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear fuel, ammunition",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1135°C", "state": "liquid"},
+      {"temperature": "4131°C", "state": "gas"}
+    ],
+    "foundIn": "Uraninite, pitchblende, carnotite"
+  },
+  {
+    "atomicNumber": 93,
+    "symbol": "Np",
+    "name": "Neptunium",
+    "atomicMass": 237,
+    "group": 7,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "644°C", "state": "liquid"},
+      {"temperature": "3902°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 94,
+    "symbol": "Pu",
+    "name": "Plutonium",
+    "atomicMass": 244,
+    "group": 8,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear weapons, fuel",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "640°C", "state": "liquid"},
+      {"temperature": "3228°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 95,
+    "symbol": "Am",
+    "name": "Americium",
+    "atomicMass": 243,
+    "group": 9,
+    "period": 9,
+    "state": "solid",
+    "usage": "Smoke detectors, research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1176°C", "state": "liquid"},
+      {"temperature": "2011°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 96,
+    "symbol": "Cm",
+    "name": "Curium",
+    "atomicMass": 247,
+    "group": 10,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research, space probes",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1345°C", "state": "liquid"},
+      {"temperature": "3110°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 97,
+    "symbol": "Bk",
+    "name": "Berkelium",
+    "atomicMass": 247,
+    "group": 11,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1050°C", "state": "liquid"},
+      {"temperature": "2900°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 98,
+    "symbol": "Cf",
+    "name": "Californium",
+    "atomicMass": 251,
+    "group": 12,
+    "period": 9,
+    "state": "solid",
+    "usage": "Neutron sources, cancer treatment",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "900°C", "state": "liquid"},
+      {"temperature": "1470°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 99,
+    "symbol": "Es",
+    "name": "Einsteinium",
+    "atomicMass": 252,
+    "group": 13,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "860°C", "state": "liquid"},
+      {"temperature": "996°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 100,
+    "symbol": "Fm",
+    "name": "Fermium",
+    "atomicMass": 257,
+    "group": 14,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1527°C", "state": "liquid"},
+      {"temperature": "1800°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 101,
+    "symbol": "Md",
+    "name": "Mendelevium",
+    "atomicMass": 258,
+    "group": 15,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "827°C", "state": "liquid"},
+      {"temperature": "1100°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 102,
+    "symbol": "No",
+    "name": "Nobelium",
+    "atomicMass": 259,
+    "group": 16,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "827°C", "state": "liquid"},
+      {"temperature": "1100°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 103,
+    "symbol": "Lr",
+    "name": "Lawrencium",
+    "atomicMass": 266,
+    "group": 17,
+    "period": 9,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "1627°C", "state": "liquid"},
+      {"temperature": "1800°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear fission byproduct"
+  },
+  {
+    "atomicNumber": 104,
+    "symbol": "Rf",
+    "name": "Rutherfordium",
+    "atomicMass": 267,
+    "group": 4,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 105,
+    "symbol": "Db",
+    "name": "Dubnium",
+    "atomicMass": 268,
+    "group": 5,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 106,
+    "symbol": "Sg",
+    "name": "Seaborgium",
+    "atomicMass": 269,
+    "group": 6,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 107,
+    "symbol": "Bh",
+    "name": "Bohrium",
+    "atomicMass": 270,
+    "group": 7,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 108,
+    "symbol": "Hs",
+    "name": "Hassium",
+    "atomicMass": 269,
+    "group": 8,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 109,
+    "symbol": "Mt",
+    "name": "Meitnerium",
+    "atomicMass": 278,
+    "group": 9,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 110,
+    "symbol": "Ds",
+    "name": "Darmstadtium",
+    "atomicMass": 281,
+    "group": 10,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 111,
+    "symbol": "Rg",
+    "name": "Roentgenium",
+    "atomicMass": 282,
+    "group": 11,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 112,
+    "symbol": "Cn",
+    "name": "Copernicium",
+    "atomicMass": 285,
+    "group": 12,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 113,
+    "symbol": "Nh",
+    "name": "Nihonium",
+    "atomicMass": 286,
+    "group": 13,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 114,
+    "symbol": "Fl",
+    "name": "Flerovium",
+    "atomicMass": 289,
+    "group": 14,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 115,
+    "symbol": "Mc",
+    "name": "Moscovium",
+    "atomicMass": 290,
+    "group": 15,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 116,
+    "symbol": "Lv",
+    "name": "Livermorium",
+    "atomicMass": 293,
+    "group": 16,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 117,
+    "symbol": "Ts",
+    "name": "Tennessine",
+    "atomicMass": 294,
+    "group": 17,
+    "period": 7,
+    "state": "solid",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "solid"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  },
+  {
+    "atomicNumber": 118,
+    "symbol": "Og",
+    "name": "Oganesson",
+    "atomicMass": 294,
+    "group": 18,
+    "period": 7,
+    "state": "gas",
+    "usage": "Nuclear research",
+    "states": [
+      {"temperature": "25°C", "state": "gas"}
+    ],
+    "foundIn": "Nuclear synthesis"
+  }
+]

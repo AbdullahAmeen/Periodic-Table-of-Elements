@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="css/leaflet.min.css" />
+</head>
+<body >
+    
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div id="tooltip"></div>
+            <h1 class="header" >Interactive Periodic Table of Elements</h1> <br><br>
+            <div id="periodic-table">
+                <div id="legend">
+                    
+                    <div class="legend-item solid"> Solid</div>
+                    <div class="legend-item gas">Gas</div>
+                    <div class="legend-item liquid">Liquid</div>
+                </div>
+            </div>
+        <div>
+    </div>
+    
+</div> 
+<div class="container" style="text-align:justify; color: #f8f7f7;">
+    
+        <div class="row">
+        <div class="col-lg-12"> <br><br>
+
+            
+
+            <div class="desciption">
+                <h1 style="text-align: center;" class="header header1"> Connecting Chemistry with Geography</h1>
+                <p>
+                    The <b>Periodic Table</b> is a structured chart that organizes all known chemical elements based on their atomic number (number of protons) 
+                    and recurring chemical properties.
+                     The periodic table currently has 118 confirmed elements, ranging from Hydrogen <small>(with 1 atomic number)</small> to Oganesson <small>(with 118 atomic number)</small>. 
+                    At room temperature, about 11 are gases, 2 are liquids (mercury and bromine), and the remaining 105 are solids. Many elements 
+                    were discovered naturally through observation and mineral studies, while heavier modern 
+                    elements were created in laboratories using particle accelerators and nuclear reactions.
+                  
+                    <br><br>
+                   
+                    Many everyday products are made when elements from the periodic table combine into compounds or materials. 
+                    Think of the periodic table as a toolbox of ingredients. Individual elements often have special properties, 
+                    but when joined together they can create useful things we use every day. Almost everything around you is made from elements in the periodic table combining with each other.
+                    <br><br>
+                    Lets connect some of the important elements with the geography of our planet. In the below map, you can see the distribution of some key elements across the world. 
+                    For example, you can find large deposits of iron ore in Australia and Brazil, which are crucial for steel production. 
+                    The United States has significant reserves of coal, which has historically been a major energy source. 
+                    The Middle East is rich in oil reserves, which are essential for global energy markets. 
+                    Additionally, rare earth elements, which are vital for modern electronics, are predominantly found in China. <br>
+                    This map highlights how the availability of certain elements can influence the economic and industrial development of different regions around the world. 
+                </p> <br>
+                
+                <!-- Element Selection Controls -->
+                <div style="margin: 20px 0; text-align: center;">
+                    <h3 style="text-align: center;">Select Element to View Distribution:</h3>
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary element-btn" data-element="steel">Steel</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="aluminum">Aluminum</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="copper">Copper</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="silicon">Silicon</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="lithium">Lithium</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="nickel">Nickel</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="chromium">Chromium</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="titanium">Titanium</button>
+                        <button type="button" class="btn btn-primary element-btn" data-element="uranium">Uranium</button>
+                    </div>
+                </div>
+
+                <!-- Map Container -->
+                <div id="map"></div>
+                <br>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+   
+
+
+<script src="js/leaflet.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/map-choropleth.js"></script>
+
+</body>
+</html>

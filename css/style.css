@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url(../data/titlebackground.png) no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+}
+
+.header {
+    color: #f8f7f7;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 34px;
+    border: 0.25px solid #ffffff;
+    background-color: #1d1e1f;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    opacity: 0.8;
+}
+
+#periodic-table {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: repeat(18, 60px);
+    grid-template-rows: repeat(9, 60px);
+    gap: 8px;
+    background: rgba(27, 26, 27, 0.9);
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(49, 46, 46, 0.1);
+    overflow-x: auto;
+    max-width: 100%;
+    height: 70vh;
+    text-emphasis: none;
+}
+
+#legend {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 10;
+    background: rgba(44, 43, 43, 0.9);
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 7px;
+}
+
+.element {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.element:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.element .symbol {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.element .number {
+    font-size: 11px;
+    opacity: 0.8;
+}
+
+/* State of Matter Colors */
+.solid {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+}
+
+.solid:hover {
+    background: linear-gradient(135deg, #5dade2, #2980b9);
+}
+
+.gas {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+
+.gas:hover {
+    background: linear-gradient(135deg, #ec7063, #c0392b);
+}
+
+.liquid {
+    background: linear-gradient(135deg, #f39c12, #d68910);
+}
+
+.liquid:hover {
+    background: linear-gradient(135deg, #f5b041, #d68910);
+}
+
+#tooltip {
+    position:absolute;
+    color: #ffffff;
+    background: rgb(49, 47, 47);
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: none;
+    z-index: 1;
+    pointer-events: none;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:justify;
+}
+
+.tooltip-name {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+
+/* Large screens */
+@media (min-width: 992px) {
+    #periodic-table {
+        grid-template-columns: repeat(18, 60px);
+        grid-template-rows: repeat(9, 60px);
+    }
+}
+
+/* Medium screens (tablets) */
+@media (max-width: 991px) and (min-width: 768px) {
+    #periodic-table {
+        grid-template-columns: repeat(18, 50px);
+        grid-template-rows: repeat(9, 50px);
+        gap: 6px;
+        padding: 15px;
+    }
+    
+    .element {
+        width: 50px;
+        height: 50px;
+        font-size: 11px;
+    }
+    
+    .element .symbol {
+        font-size: 14px;
+    }
+    
+    .element .number {
+        font-size: 8px;
+    }
+    
+    #legend {
+        gap: 15px;
+    }
+    
+    .legend-item {
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+}
+
+/* Small screens (phones) */
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     
+    }
+    
+    #periodic-table {
+        grid-template-columns: repeat(10, 40px);
+        grid-template-rows: repeat(9, 40px);
+        gap: 5px;
+        padding: 10px;
+    }
+    
+    .element {
+        width: 40px;
+        height: 40px;
+        font-size: 9px;
+        border: 1px solid #ddd;
+    }
+    
+    .element .symbol {
+        font-size: 11px;
+        margin-bottom: 1px;
+    }
+    
+    .element .number {
+        font-size: 7px;
+    }
+    
+    
+    .legend-item {
+        font-size: 15px;
+        padding: 6px 10px;
+        justify-content: center;
+    }
+    
+    #tooltip {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+    
+    .tooltip-name {
+        font-size: 14px;
+    }
+}
+
+.solid{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.gas{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.liquid{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.desciption{
+    background: rgba(27, 26, 27, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    margin-top: 30px;
+    color: #f8f7f7;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.btn-group{
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+ #map {
+            height: 600px;
+            border: 1px solid #ffffff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            background-color: rgb(70, 67, 67);
+
+        }
+        .legend {
+            line-height: 18px;
+            color: #555;
+            background: white;
+            padding: 6px 8px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        .legend i {
+            width: 18px;
+            height: 18px;
+            float: left;
+            margin-right: 8px;
+            border-radius: 3px;
+        }
+        .info {
+            padding: 6px 8px;
+            background: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            border-radius: 5px;
+            line-height: 18px;
+            color: #555;
+        }
+        .info h4 {
+            margin: 0 0 5px 0;
+            color: #333;
+        }
