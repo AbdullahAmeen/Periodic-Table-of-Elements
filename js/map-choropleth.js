@@ -136,32 +136,11 @@ function resetHighlight(e) {
     info.update();
 }
 
-// Create popup on click
 function onEachFeature(feature, layer) {
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight
     });
-    
-    // Create popup content
-    const props = feature.properties;
-    const element = elementDescriptions[currentElement];
-    let popupContent = `<div style="font-family: Arial; font-size: 12px;">
-        <h5 style="margin: 0 0 8px 0;">${props.COUNTRY}</h5>
-        <table style="width: 100%; border-collapse: collapse;">
-            <tr style="border-bottom: 1px solid #ddd;">
-                <td style="padding: 4px; font-weight: bold;">${element.name}:</td>
-                <td style="padding: 4px;">${props[currentElement] || 0}%</td>
-            </tr>
-            <tr>
-                <td colspan="2" style="padding: 8px 4px; font-size: 11px; font-style: italic;">
-                    Uses: ${element.uses}
-                </td>
-            </tr>
-        </table>
-    </div>`;
-    
-    layer.bindPopup(popupContent);
 }
 
 // Load GeoJSON data
