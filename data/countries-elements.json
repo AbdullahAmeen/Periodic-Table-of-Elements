@@ -5,15 +5,15 @@
       "type": "Feature",
       "properties": {
         "name": "China",
-        "steel": 55,
-        "aluminum": 38,
-        "copper": 12,
-        "silicon": 25,
-        "lithium": 65,
-        "nickel": 8,
-        "chromium": 30,
-        "titanium": 5,
-        "uranium": 2
+        "steel": 12,
+        "aluminum": 59,
+        "copper": 4,
+        "silicon": 72,
+        "lithium": 3,
+        "nickel": 3,
+        "chromium": 1,
+        "titanium": 18,
+        "uranium": 5
       },
       "geometry": {
         "type": "Polygon",
@@ -24,15 +24,15 @@
       "type": "Feature",
       "properties": {
         "name": "Australia",
-        "steel": 1,
-        "aluminum": 8,
+        "steel": 29,
+        "aluminum": 4,
         "copper": 10,
-        "silicon": 5,
-        "lithium": 50,
-        "nickel": 12,
-        "chromium": 3,
-        "titanium": 8,
-        "uranium": 25
+        "silicon": 2,
+        "lithium": 24,
+        "nickel": 18,
+        "chromium": 2,
+        "titanium": 24,
+        "uranium": 28
       },
       "geometry": {
         "type": "Polygon",
@@ -43,15 +43,15 @@
       "type": "Feature",
       "properties": {
         "name": "United States",
-        "steel": 6,
-        "aluminum": 15,
-        "copper": 8,
-        "silicon": 12,
-        "lithium": 8,
-        "nickel": 2,
-        "chromium": 4,
-        "titanium": 25,
-        "uranium": 8
+        "steel": 2,
+        "aluminum": 2,
+        "copper": 7,
+        "silicon": 2,
+        "lithium": 4,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 1,
+        "uranium": 1
       },
       "geometry": {
         "type": "Polygon",
@@ -62,15 +62,15 @@
       "type": "Feature",
       "properties": {
         "name": "Brazil",
-        "steel": 2,
-        "aluminum": 6,
-        "copper": 1,
-        "silicon": 3,
-        "lithium": 10,
-        "nickel": 15,
-        "chromium": 5,
-        "titanium": 2,
-        "uranium": 1
+        "steel": 17,
+        "aluminum": 0,
+        "copper": 2,
+        "silicon": 4,
+        "lithium": 0,
+        "nickel": 12,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -81,15 +81,15 @@
       "type": "Feature",
       "properties": {
         "name": "Russia",
-        "steel": 5,
+        "steel": 14,
         "aluminum": 5,
-        "copper": 6,
+        "copper": 8,
         "silicon": 6,
-        "lithium": 3,
-        "nickel": 18,
-        "chromium": 2,
-        "titanium": 15,
-        "uranium": 12
+        "lithium": 0,
+        "nickel": 6,
+        "chromium": 1,
+        "titanium": 3,
+        "uranium": 8
       },
       "geometry": {
         "type": "Polygon",
@@ -100,15 +100,15 @@
       "type": "Feature",
       "properties": {
         "name": "Canada",
-        "steel": 1,
-        "aluminum": 12,
-        "copper": 4,
-        "silicon": 2,
-        "lithium": 5,
-        "nickel": 25,
-        "chromium": 1,
-        "titanium": 5,
-        "uranium": 20
+        "steel": 0,
+        "aluminum": 4,
+        "copper": 3,
+        "silicon": 0,
+        "lithium": 2,
+        "nickel": 5,
+        "chromium": 0,
+        "titanium": 1,
+        "uranium": 10
       },
       "geometry": {
         "type": "Polygon",
@@ -119,15 +119,15 @@
       "type": "Feature",
       "properties": {
         "name": "India",
-        "steel": 8,
-        "aluminum": 4,
+        "steel": 6,
+        "aluminum": 6,
         "copper": 2,
-        "silicon": 8,
-        "lithium": 1,
-        "nickel": 6,
-        "chromium": 8,
-        "titanium": 3,
-        "uranium": 3
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 2,
+        "chromium": 4,
+        "titanium": 15,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -195,15 +195,15 @@
       "type": "Feature",
       "properties": {
         "name": "Mexico",
-        "steel": 2,
-        "aluminum": 1,
+        "steel": 0,
+        "aluminum": 0,
         "copper": 6,
-        "silicon": 2,
-        "lithium": 4,
-        "nickel": 8,
-        "chromium": 1,
-        "titanium": 1,
-        "uranium": 1
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -214,15 +214,15 @@
       "type": "Feature",
       "properties": {
         "name": "Chile",
-        "steel": 1,
-        "aluminum": 1,
-        "copper": 28,
-        "silicon": 2,
-        "lithium": 25,
-        "nickel": 3,
-        "chromium": 1,
-        "titanium": 1,
-        "uranium": 1
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 20,
+        "silicon": 0,
+        "lithium": 36,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -233,15 +233,15 @@
       "type": "Feature",
       "properties": {
         "name": "Peru",
-        "steel": 1,
-        "aluminum": 1,
-        "copper": 12,
-        "silicon": 1,
-        "lithium": 8,
-        "nickel": 4,
-        "chromium": 1,
-        "titanium": 1,
-        "uranium": 1
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 10,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -252,15 +252,15 @@
       "type": "Feature",
       "properties": {
         "name": "Indonesia",
-        "steel": 1,
-        "aluminum": 2,
-        "copper": 3,
-        "silicon": 2,
-        "lithium": 2,
-        "nickel": 20,
-        "chromium": 1,
-        "titanium": 1,
-        "uranium": 1
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 42,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -309,15 +309,15 @@
       "type": "Feature",
       "properties": {
         "name": "Kazakhstan",
-        "steel": 1,
-        "aluminum": 2,
-        "copper": 2,
-        "silicon": 1,
-        "lithium": 2,
-        "nickel": 2,
-        "chromium": 1,
-        "titanium": 1,
-        "uranium": 30
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 12,
+        "titanium": 0,
+        "uranium": 13
       },
       "geometry": {
         "type": "Polygon",
@@ -328,15 +328,15 @@
       "type": "Feature",
       "properties": {
         "name": "Turkey",
-        "steel": 2,
-        "aluminum": 1,
-        "copper": 2,
-        "silicon": 1,
-        "lithium": 40,
-        "nickel": 1,
-        "chromium": 8,
-        "titanium": 2,
-        "uranium": 1
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 3,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -347,15 +347,15 @@
       "type": "Feature",
       "properties": {
         "name": "Norway",
-        "steel": 1,
-        "aluminum": 4,
-        "copper": 1,
-        "silicon": 1,
-        "lithium": 2,
-        "nickel": 2,
-        "chromium": 1,
-        "titanium": 3,
-        "uranium": 1
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 3,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
@@ -366,19 +366,114 @@
       "type": "Feature",
       "properties": {
         "name": "South Africa",
-        "steel": 1,
-        "aluminum": 2,
-        "copper": 2,
-        "silicon": 2,
-        "lithium": 1,
-        "nickel": 8,
-        "chromium": 40,
-        "titanium": 3,
-        "uranium": 5
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 1,
+        "chromium": 72,
+        "titanium": 10,
+        "uranium": 0
       },
       "geometry": {
         "type": "Polygon",
         "coordinates": [[[16.5, -22.0], [17.5, -22.5], [18.5, -23.0], [19.5, -23.5], [20.5, -24.0], [21.5, -24.5], [22.5, -25.0], [23.5, -25.5], [24.5, -26.0], [25.5, -26.5], [26.5, -27.0], [27.5, -27.5], [28.5, -28.0], [29.5, -28.5], [30.5, -29.0], [31.5, -29.5], [32.2, -30.0], [32.5, -30.8], [32.8, -31.5], [32.8, -32.0], [32.5, -32.5], [32.0, -33.0], [31.5, -33.5], [31.0, -34.0], [30.2, -34.5], [29.2, -34.8], [28.0, -35.0], [26.8, -34.8], [25.8, -34.5], [24.8, -34.0], [24.0, -33.2], [23.5, -32.2], [23.0, -31.0], [22.8, -29.8], [22.5, -28.5], [22.0, -27.2], [21.5, -26.0], [21.0, -24.8], [20.5, -23.5], [20.0, -22.2], [19.5, -21.0], [19.0, -20.0], [18.5, -19.2], [18.0, -18.5], [17.5, -18.0], [17.2, -17.8], [16.8, -17.5], [16.5, -22.0]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Argentina",
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 10,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-73, -55], [-53, -55], [-53, -21], [-73, -21], [-73, -55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Finland",
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 2,
+        "titanium": 0,
+        "uranium": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20, 60], [31, 60], [31, 70], [20, 70], [20, 60]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Namibia",
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 7
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-17, -29], [25, -29], [25, -16], [-17, -16], [-17, -29]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philippines",
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 6,
+        "chromium": 0,
+        "titanium": 0,
+        "uranium": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[116, 4], [127, 4], [127, 21], [116, 21], [116, 4]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mozambique",
+        "steel": 0,
+        "aluminum": 0,
+        "copper": 0,
+        "silicon": 0,
+        "lithium": 0,
+        "nickel": 0,
+        "chromium": 0,
+        "titanium": 7,
+        "uranium": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[30, -27], [41, -27], [41, -10], [30, -10], [30, -27]]]
       }
     }
   ]

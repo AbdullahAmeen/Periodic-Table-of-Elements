@@ -63,9 +63,8 @@ function getColor(d) {
 }
 
 // Create map
-const map = L.map('map').setView([15, 5], 1);
+const map = L.map('map').setView([20, 5], 1);
 
-// Add base tile layer
 
 // Function to style features based on current element
 function style(feature) {
@@ -138,6 +137,24 @@ function onEachFeature(feature, layer) {
         mouseover: highlightFeature,
         mouseout: resetHighlight
     });
+
+    if (feature.properties) {
+        const props = feature.properties;
+        const element = elementDescriptions[currentElement];
+        layer.bindPopup(
+            `<strong>${props.COUNTRY || 'Unknown'}</strong><br>` +
+            `Steel: ${props.steel || 0}%<br>` +
+            `Aluminum: ${props.aluminum || 0}%<br>` +
+            `Copper: ${props.copper || 0}%<br>` +
+            `Silicon: ${props.silicon || 0}%<br>` +
+            `Lithium: ${props.lithium || 0}%<br>` +
+            `Nickel: ${props.nickel || 0}%<br>` +
+            `Chromium: ${props.chromium || 0}%<br>` +
+            `Titanium: ${props.titanium || 0}%<br>` +
+            `Uranium: ${props.uranium || 0}%<br>` +
+            `<em>Selected: ${element.name} (${props[currentElement] || 0}%)</em>`
+        );
+    }
 }
 
 // Load GeoJSON data
@@ -150,13 +167,16 @@ function loadMap(element) {
     }
     
     // Load and add GeoJSON
-    fetch('data/World_Countries.geojson')
+    fetch('data/World_Countries.json')
         .then(response => response.json())
         .then(data => {
             geoJsonLayer = L.geoJson(data, {
                 style: style,
                 onEachFeature: onEachFeature
             }).addTo(map);
+
+            // Keep the map closer to the setView zoom for a more zoomed-in display.
+            // We don't fit bounds here because global country data would force a very wide view.
             
             // Update info box
             info.update();
