@@ -63,12 +63,9 @@ function getColor(d) {
 }
 
 // Create map
-const map = L.map('map').setView([15, 5], 2);
+const map = L.map('map').setView([15, 5], 1);
 
 // Add base tile layer
- L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	attribution: 'Tiles &copy; Esri and the GIS User Community'
-}).addTo(map);
 
 // Function to style features based on current element
 function style(feature) {
