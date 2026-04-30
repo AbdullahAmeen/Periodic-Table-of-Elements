@@ -18,19 +18,23 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function buildElements(elements) {
-        table.innerHTML = `
-            <div id="legend">
+        const legend = table.querySelector('#legend');
+        if (!legend) {
+            const legendEl = document.createElement('div');
+            legendEl.id = 'legend';
+            legendEl.innerHTML = `
                 <div class="legend-item solid"> Solid</div>
                 <div class="legend-item gas">Gas</div>
                 <div class="legend-item liquid">Liquid</div>
-            </div>
-        `;
+            `;
+            table.appendChild(legendEl);
+        }
 
         elements.forEach((element) => {
             const elemDiv = document.createElement('div');
             elemDiv.className = `element ${element.state}`;
             elemDiv.style.gridColumn = element.group;
-            elemDiv.style.gridRow = element.period;
+            elemDiv.style.gridRow = element.period + 1;
 
             elemDiv.innerHTML = `
                 <div class="number">${element.atomicNumber}</div>
@@ -59,11 +63,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     ${madeFromHtml}
                 `;
 
-                const rect = elemDiv.getBoundingClientRect();
                 const modalContent = modal.querySelector('.modal-content');
-                modalContent.style.top = (rect.top + window.scrollY - 250) + 'px';
-                modalContent.style.left = (rect.left + window.scrollX - 120) + 'px';
-                
+                modalContent.style.removeProperty('top');
+                modalContent.style.removeProperty('left');
+                modalContent.style.removeProperty('transform');
+
                 modal.style.display = 'block';
             });
 
