@@ -138,23 +138,8 @@ function onEachFeature(feature, layer) {
         mouseout: resetHighlight
     });
 
-    if (feature.properties) {
-        const props = feature.properties;
-        const element = elementDescriptions[currentElement];
-        layer.bindPopup(
-            `<strong>${props.COUNTRY || 'Unknown'}</strong><br>` +
-            `Steel: ${props.steel || 0}%<br>` +
-            `Aluminum: ${props.aluminum || 0}%<br>` +
-            `Copper: ${props.copper || 0}%<br>` +
-            `Silicon: ${props.silicon || 0}%<br>` +
-            `Lithium: ${props.lithium || 0}%<br>` +
-            `Nickel: ${props.nickel || 0}%<br>` +
-            `Chromium: ${props.chromium || 0}%<br>` +
-            `Titanium: ${props.titanium || 0}%<br>` +
-            `Uranium: ${props.uranium || 0}%<br>` +
-            `<em>Selected: ${element.name} (${props[currentElement] || 0}%)</em>`
-        );
-    }
+    // Removed popup binding to disable click popups
+    // Keeping the hover info box in top right corner
 }
 
 // Load GeoJSON data
