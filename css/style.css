@@ -13,7 +13,6 @@ body {
     display: block;
     padding: 10px;
     text-align: center;
-    
     background-color: rgba(27, 26, 27, 0.9);
     border-radius: 15px;
     margin-left: auto;
@@ -294,7 +293,10 @@ body {
 }
 .btn-group{
     text-align: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
 }
 .element-btn{
     border: 1px solid #ffffff;
@@ -308,7 +310,7 @@ body {
             border: 1px solid #ffffff;
             margin-top: 20px;
             border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0,0,0,0.8);
             background-color: rgba(27, 26, 27, 0.9);
 
         }
@@ -420,3 +422,14 @@ body {
     color: #ffffff;
 }
 
+
+.sources{
+    margin-left: 25px;
+}
+.datatale{
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+}

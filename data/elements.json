@@ -296,6 +296,22 @@
     "foundIn": "Potash, salt deposits, minerals"
   },
   {
+    "atomicNumber": 20,
+    "symbol": "Ca",
+    "name": "Calcium",
+    "atomicMass": 40.078,
+    "group": 2,
+    "period": 4,
+    "state": "solid",
+    "usage": "Construction, bones, cement",
+    "states": [
+      {"temperature": "25°C", "state": "solid"},
+      {"temperature": "842°C", "state": "liquid"},
+      {"temperature": "1484°C", "state": "gas"}
+    ],
+    "foundIn": "Limestone, gypsum, bones"
+  },
+  {
     "atomicNumber": 21,
     "symbol": "Sc",
     "name": "Scandium",

@@ -48,6 +48,11 @@ const elementDescriptions = {
         name: 'Uranium',
         uses: 'Nuclear Power',
         color: '#FD79A8'
+    },
+    calcium: {
+        name: 'Calcium',
+        uses: 'Construction, Bones, Cement',
+        color: '#E17055'
     }
 };
 
