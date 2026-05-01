@@ -423,13 +423,15 @@ body {
 }
 
 
+
 .sources{
     margin-left: 25px;
 }
 .datatale{
-    margin-left: 25px;
+    text-align: center;
     margin-top: 10px;
     border: 1px solid #ffffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    width: 100%;
 }
